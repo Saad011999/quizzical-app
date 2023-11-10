@@ -1,0 +1,25 @@
+.homeComponent{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+}
+
+.homeComponent h1{
+    font-weight:700;
+    font-size:50px;
+}
+
+.homeComponent button{
+    padding:10px 50px;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+.homeComponent  button:active { 
+    background-color: #f8f8f8;
+    ; 
+} 

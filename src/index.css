@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btnContainer{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:20px
+}

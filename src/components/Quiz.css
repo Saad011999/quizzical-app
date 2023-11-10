@@ -1,0 +1,54 @@
+.quizComponent{
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:10% 0;
+}
+
+.wrapper{
+    width:80%;
+    border:1px solid black;
+    border-radius:5px;
+    
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.quizComponent hr{
+    width:100vw;
+}
+
+.quizComponent button{
+    padding:5px 10px;
+    border:2px solid gray;
+    border-radius:5px;
+
+}
+
+.options{
+    width:90%;
+    display:flex;
+    gap:10px;
+    justify-content:center;
+}
+
+.clicked{
+    background-color:green;
+}
+
+.submitBtn, .playAgain,.result{
+padding:5px 10px;
+    border:2px solid gray;
+    border-radius:5px;
+}
+
+
+.btnContainer{
+    display:flex;
+    gap:20px
+}
+
